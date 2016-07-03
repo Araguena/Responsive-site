@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', Arial, sans-serif;
+}
+/*
+=========================================
+HEADER
+=========================================
+*/
+.header {
+  background-color: rgb(221,221,221);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.logo {
+  border: 1px solid rgb(210,210,210);
+  background: white;
+  color: #a7a0a2;
+  padding: 5px;
+  font-size: 16px;
+}
+.search {
+  background: white;
+  border: 1px solid rgb(210,210,210);
+  border-radius: 5px;
+  color: #a7a0a2;
+  padding: 5px;
+  width: 100%;
+  font-size: 16px;
+}
+#username {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(80,80,80);
+  text-align: right;
+  padding-top: 5px;
+}
+.userpic {
+  height: 35px;
+}
+/*
+=========================================
+AD BANNER
+=========================================
+*/
+.banner {
+  background: #03C8A2;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1em;
+  height: 2em;
+  line-height: 2em;
+  margin-bottom: 10px;
+}
+/*
+=========================================
+IMAGE BOXES
+=========================================
+*/
+.img-box {
+  border: 1px solid rgb(210,210,210);
+  color: rgb(110,110,110);
+  padding: 10px 10px;
+  margin-bottom: 10px;
+}
+.img-box img {
+  margin-bottom: 10px;
+}
+.img-box p {
+  font-size: 16px;
+}
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0;
+  color: rgb(80,80,80);
+}
+/*
+=========================================
+AD LABEL ON IMAGE BOXES
+=========================================
+*/
+.sale {
+  position: relative;
+}
+.sale-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 30px solid #03C8A2;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  height: 0;
+  width: 140px;
+  -webkit-transform: rotate(-45deg) translateX(-39px) translateY(-5px);
+  -ms-transform: rotate(-45deg) translateX(-39px) translateY(-5px);
+  -o-transform: rotate(-45deg) translateX(-39px) translateY(-5px);
+  transform: rotate(-45deg) translateX(-39px) translateY(-5px);
+  z-index: 1;
+}
